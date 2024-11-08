@@ -24,7 +24,7 @@
 
 # Import additional configuration files
 import = [
-    "~/.config/alacritty/themes/themes/aura.toml"
+    "~/.config/alacritty/themes/themes/argonaut.toml"
 ]
 
 # Shell program and its arguments
@@ -48,14 +48,12 @@ dimensions.columns = 70
 dimensions.lines = 19
 
 [font]
-
-normal.family = "Cascadia Code PL"
-bold.family = "Cascadia Code PL"
-italic.family = "Cascadia Code PL"
-bold_italic.family = "Cascadia Code PL"
-
+normal.family = "FiraCode Nerd Font Mono"
+bold.family = "FiraCode Nerd Font Mono"
+italic.family = "FiraCode Nerd Font Mono"
+bold_italic.family = "FiraCode Nerd Font Mono"
 size = 15.0
 
-# Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
-# Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
-# small box when a HEX is detected by the editor.
+[cursor]
+style.shape = "Beam"
+vi_mode_style.shape = "Block"
