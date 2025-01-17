@@ -1,1 +1,0 @@
-require('karolis.core.options')
